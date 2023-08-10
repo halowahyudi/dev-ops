@@ -19,3 +19,8 @@ git config --global user.email "email@example.com"
 ```bash
 git config --global credential.helper cache
 ```
+## Test Pull Request
+```bash
+git pull origin main # sesuaikan dengan branch
+```
+Jika sudah tidak ada lagi masukkan username dan personal akses token maka bisa lanjut untuk setup github action.
