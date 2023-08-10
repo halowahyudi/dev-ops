@@ -29,6 +29,10 @@ mkdir /var/www/namaproject
 ```bash
 sudo nano /etc/nginx/sites-available/namaproject
 ```
+- Set Hak Akses
+```bash
+sudo chown -R www-data:www-data /var/www/namasitusanda
+```
 - Aktifkan Konfigurasi
 ```bash
 sudo ln -s /etc/nginx/sites-available/namaproject /etc/nginx/sites-enabled
