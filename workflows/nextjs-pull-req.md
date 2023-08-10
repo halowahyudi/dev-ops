@@ -36,3 +36,7 @@ jobs:
             npm i
             npm run build
 ```
+
+# Penting:
+Sebelum setup github action harap untuk set git creds dulu agar tidak ada pertanyaan username dan personal akses token
+referensi: git-creds-manager.md
