@@ -27,7 +27,7 @@ mkdir /var/www/namaproject
 ```
 - Buat server blok
 ```bash
-sudo nano /etc/nginx/sites-available/namaproject
+sudo nano /etc/nginx/sites-available/namasitusanda
 ```
 - Set Hak Akses
 ```bash
