@@ -3,6 +3,15 @@
 ### PHP
 [How to Install or Upgrade to PHP 8.3 on Debian/Ubuntu](https://php.watch/articles/php-8.3-install-upgrade-on-debian-ubuntu)
 
+# PHP Laravel Extentions (MOD PHP)
+```bash
+sudo apt install php8.3-opcache php8.3-pdo php8.3-curl php8.3-intl php8.3-mbstring php8.3-xml php8.3-sqlite3 php8.3-bcmath
+```
+# PHP Laravel Extentions (PHP-FPM)
+```bash
+sudo apt install php8.3-fpm php8.3-opcache php8.3-pdo php8.3-curl php8.3-intl php8.3-mbstring php8.3-xml php8.3-sqlite3 php8.3-bcmath
+
+```
 ### Composer
 [How to Install and Use Composer on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-22-04)
 
