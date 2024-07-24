@@ -28,3 +28,8 @@ Uji Koneksi
 ```bash
 ssh -T git@github.com
 ```
+
+# Restart SSH
+```bash
+sudo systemctl restart sshd
+```
