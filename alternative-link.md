@@ -22,24 +22,27 @@ Untuk membuat pengguna baru `psiswa` dan memberikan hak akses penuh pada semua b
 ## 1. Masuk ke MySQL sebagai Root
 
 Jalankan perintah berikut di terminal atau command prompt:
-
+```bash
 mysql -u root -p
+```
 
 Masukkan password root Anda saat diminta.
 
 ## 2. Buat Pengguna Baru
 
 Jalankan perintah SQL berikut untuk membuat pengguna baru `psiswa` dan memberikan hak akses:
-
+```bash
 CREATE USER 'psiswa'@'localhost' IDENTIFIED BY 'xxx';
+```
 
 Gantilah `'xxx'` dengan password yang diinginkan.
 
 ## 3. Berikan Hak Akses Penuh
 
 Berikan hak akses penuh pada semua basis data untuk pengguna `psiswa`:
-
+```bash
 GRANT ALL PRIVILEGES ON *.* TO 'psiswa'@'localhost' WITH GRANT OPTION;
+```
 
 ## 4. Segarkan Hak Akses
 
@@ -50,16 +53,18 @@ FLUSH PRIVILEGES;
 ## 5. (Opsional) Ubah Password Pengguna
 
 Jika Anda ingin mengubah password untuk pengguna `psiswa`, Anda dapat menggunakan perintah `ALTER USER`:
-
+```bash
 ALTER USER 'psiswa'@'localhost' IDENTIFIED BY 'xxx';
+```
 
 Gantilah `'xxx'` dengan password yang diinginkan.
 
 ## 6. Keluar dari MySQL
 
 Jika sudah selesai, keluar dari sesi MySQL:
-
+```bash
 EXIT;
+```
 
 Dengan langkah-langkah di atas, pengguna baru `psiswa` akan memiliki hak akses penuh dan dapat menggunakan password yang telah Anda tentukan. Pastikan untuk mengganti `'xxx'` dengan password yang aman dan sesuai dengan kebijakan keamanan Anda.
 
