@@ -47,8 +47,9 @@ GRANT ALL PRIVILEGES ON *.* TO 'psiswa'@'localhost' WITH GRANT OPTION;
 ## 4. Segarkan Hak Akses
 
 Segarkan hak akses untuk memastikan perubahan berlaku:
-
+```bash
 FLUSH PRIVILEGES;
+```
 
 ## 5. (Opsional) Ubah Password Pengguna
 
