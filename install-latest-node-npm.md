@@ -1,4 +1,4 @@
-# Install NodeJS dan NPM Terbaru
+# Install NodeJS dan NPM Terbaru (X)
 - Install CURL jika belum ada
 ```bash
 sudo apt install curl
