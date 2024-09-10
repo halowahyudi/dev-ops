@@ -7,7 +7,7 @@
 ```bash
 sudo apt install php8.3-fpm php8.3-opcache php8.3-pdo php8.3-curl php8.3-intl php8.3-mbstring php8.3-xml php8.3-sqlite3 php8.3-bcmath php8.3-mysql
 ```
-```
+
 ### Composer
 [How to Install and Use Composer on Ubuntu 22.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-composer-on-ubuntu-22-04)
 
