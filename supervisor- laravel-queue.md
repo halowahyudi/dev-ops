@@ -3,6 +3,10 @@
 sudo apt-get install supervisor
 ```
 
+## Buat File Konfigurasi Supervisor untuk Laravel Worker
+```bash
+sudo nano /etc/supervisor/conf.d/project-name-worker.conf
+```
 ## Konfigurasi Supervisor (Laravel Queue)
 ```ini
 [program:laravel-worker]
