@@ -42,3 +42,12 @@ sudo systemctl reload nginx
 ```bash
 sudo certbot renew --dry-run
 ```
+
+## Wildcard Domain
+```bash
+sudo certbot certonly --manual \
+  --preferred-challenges=dns \
+  --server https://acme-v02.api.letsencrypt.org/directory \
+  -d domain.com -d *.domain.com
+
+```
