@@ -24,3 +24,18 @@ sudo supervisorctl reread
 sudo supervisorctl update
 sudo supervisorctl start laravel-worker:*
 ```
+
+### Cek Status
+```bash
+sudo supervisorctl status
+```
+
+### Stop Worker
+```bash
+sudo supervisorctl stop laravel-worker:*
+```
+
+### Restart Worker
+```bash
+sudo supervisorctl restart laravel-worker:*
+```
